@@ -1,0 +1,514 @@
+*{
+    font-family: "SUSE", sans-serif;
+}
+
+.header{
+    width: 100%;
+}
+#noFull{
+    width: 90%;
+    margin: 0px auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-top: 10px;
+}
+#inputF{
+    margin-top: 0px;
+    width: 80px;
+    height: 20px;
+    border: 0px solid #fff;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.b{
+    background-color: #fff;
+    margin: 0px;
+    width: 120px;height: 40px;
+}
+#flex_d{
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s border;
+}
+#flex_d:hover{
+    border: 1px solid orange;
+}
+#textF{
+    margin-left: -100px;
+}
+#flex_d a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+.form{
+    background-image: url('img/Header.png');
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.form h1{
+    color: #fff;
+    font-size: 70px;
+    margin-left: 20%;
+}
+
+
+.poleF{
+    background-color: #fff;
+    width: 30%;
+    height: 130px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#inputka{
+    height: 25px;
+}
+
+#Toflex{
+    margin-left: 10%;
+}
+
+#forks{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #F65900;
+    background-color: #F65900;
+    color: #fff;
+    flex-wrap: wrap;
+    transition: 1s background-color;
+    
+}
+#forks:hover{
+    background-color: #fff;
+    color: #F65900;
+}
+
+
+.boxes{
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.UpGG{
+    text-decoration: none;
+    color: red;
+    padding: 5px;
+    border: 3px solid rgb(255, 224, 168);
+    border-radius: 10px;
+    background-color: rgb(255, 224, 168);
+}
+
+.HowItWork{
+    width: 100%;
+    height: 200px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.centerDD{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    width: 300px;
+}
+
+.centerDD img{
+    margin: 0px auto;
+}
+
+.centerDD h3{
+    color: rgb(63, 63, 63);
+    font-size: 25px;
+    margin: 0px auto;
+}
+
+.centerDD h4{
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+#PopularItems{
+    margin-top: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.MaxWPI{
+    width: 280px;
+}
+.MaxWPI img{
+    border-radius: 10px;
+}
+.OrderN{
+    padding-left: 35%;
+    padding-right: 35%;
+    background-color: #F17228;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.OrderN:hover{
+    background-color: aliceblue;
+    border: 1px solid #F17228;
+    color: #F17228;
+}
+
+#FeatRest{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+#ggg{
+    margin-left: 35%;
+    position: absolute;
+    position: absolute;
+    color: black;
+}
+
+#ObFR{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.MaxAPI{
+    width: 300px;
+}
+
+.imgSka{
+    width: 300px;
+    margin-top: 100px;
+}
+
+.FRFW{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.FRFW img{
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+    margin-top: -10px;
+}
+.FRFW h3{
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.UpGGUp{
+    text-decoration: none;
+    color: red;
+    padding: 5px;
+    border: 3px solid rgb(255, 224, 168);
+    border-radius: 10px;
+    background-color: rgb(255, 224, 168);
+    float:inline-start;
+    margin-top: 15px;
+}
+
+.UpGGUpT{
+    text-decoration: none;
+    color: green;
+    padding: 5px 25px;
+    border: 3px solid rgb(255, 224, 168);
+    border-radius: 10px;
+    background-color: rgb(255, 224, 168);
+    float:inline-start;
+    margin-top: 15px;
+}
+
+#ButtonRF{
+    margin-top: 1150px;
+    margin-left: 0%;
+    position: absolute;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #F17228;
+    font-size: 20px;
+    border: 3px solid #F17228;
+    border-radius: 10px;
+    font-weight: 900;
+    transition: 1s background-color, color, border;
+}
+
+#ButtonRF:hover{
+    color: #F17228;
+    background-color: #fff;
+    border: 3px solid #F17228;
+    font-weight: 900;
+}
+
+.Zagolovok{
+    width: 100%;
+    height: 900px;
+    margin-top: 950px;
+}
+
+.standart img{
+    border-radius: 100%;
+    width: 250px;
+}
+.standart h2{
+    display: flex;
+    justify-content: center;
+}
+
+.standart{
+    margin-top: 150px;
+}
+
+.box000{
+    display: flex;
+    justify-content: space-between;
+}
+
+#FloatTT{
+    float: left;
+}
+
+#floatTTT{
+    float: right;
+    margin-left: 55%;
+    position: absolute;
+    margin-top: -20px;
+}
+
+#AppImg{
+    float: left;
+}
+
+#AppH1{
+    width: 50%;
+    height: 300px;
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+#AppH1 h3{
+    font-size: 20px;
+    width: 70%;
+}
+#GHI{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#AppH1 h1{
+    color: #F17228;
+}
+/* .containerB{
+    margin-top: 1800px;
+}
+.card{
+    width: 100%;
+    margin-top: 100px;
+}
+.card a{
+    margin-left: 0%;
+    position: absolute;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #F17228;
+    font-size: 20px;
+    border: 3px solid #F17228;
+    border-radius: 10px;
+    font-weight: 900;
+    transition: 1s background-color, color, border;
+}*/
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 1000px;
+}
+.footer h2 {
+    margin: 0 0 20px;
+    font-size: 2.5em;
+    color: #ff6f20;
+}
+.cta-button {
+    background-color: #ff6f20;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+.cta-button:hover {
+    background-color: #ff5a00;
+}
+.footer-section {
+    margin: 40px 0;
+}
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+.cities, .company, .contact, .legal {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.cities div, .company div, .contact div, .legal div {
+    flex: 1 1 150px;
+    text-align: center;
+    margin: 5px 0;
+}
+.subscribe {
+    margin: 40px 0;
+}
+input[type="email"] {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+.subscribe-button {
+    background-color: #ff6f20;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.subscribe-button:hover {
+    background-color: #ff5a00;
+}
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+@media all and (max-width: 1000px;){
+    *{
+        max-width: 900px;
+        margin: 0px auto;
+    }
+    #noFull{
+        width: 100%;
+    }
+    #noFull p{
+        margin-top: 15px;
+    }
+    #textF{
+        margin-left: -120px;
+    }
+    .poleF{
+        height: 230px;
+        margin-top: -30%;
+    }
+    #forks{
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+    .poleF button{
+        margin-left: 22%;
+        margin-top: 10px;
+    }
+    .boxes{
+        width: 100%;
+    }
+    .UpMargin{
+        margin: 40px auto;
+    }
+    .boxes div a{
+        position: absolute;
+        margin-bottom: -20px;
+    }
+    .HowItWork{
+        margin-top: 600px;
+        color: #F65900;
+    }
+    #PopularItems{
+        margin-top: 780px;
+    }
+    .MaxWPI{
+        margin-bottom: 200px;
+    }
+    #ButtonRF{
+        margin-top: 1650px;
+    }
+    .Zagolovok{
+        margin-top: 1700px;
+    }
+    .footer{
+        margin-top: 1500px;
+    }
+}
+
+@media all and (max-width: 1350px){
+    #PopularItems{
+        margin-top: 900px;
+    }
+    #ButtonRF{
+        margin-top: 2150px;
+    }
+    .Zagolovok{
+        margin-top: 1800px;
+    }
+    .footer{
+        margin-top: 1900px;
+    }
+}
+
+@media all and (max-width: 950px){
+    #ButtonRF{
+        margin-top: 2150px;
+    }
+}
